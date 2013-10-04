@@ -1,6 +1,2 @@
-<p class="bcfoot">	
-		
-		&copy; Barclaycard 2009
-		
-	 </p>
+<a href="http://gov.uk"><div class="govuk_approved"></div></a>
 </div>
