@@ -27,4 +27,4 @@ Firstly, brace yourself, this is not very nice to work with. I recommend tea + b
 
 The Smartpay skin system requires a separate skin for four different profiles — standard browsers, ios/android phones, older mobile phones and IPTVs :/
 
-More than slightly mad. The approach with this skin is to try to make one skin that can be used in all scenarios, so it's responsive and very stripped back in terms of style.
+More than slightly mad. The approach I've taken is to try to make one skin that can be used in all scenarios, so it's responsive and very simple in terms of layout.
