@@ -3,6 +3,8 @@ fco-smartpay-skin
 
 Frontend styling of the Barclaycard smartpay system, currently only used by some FCO services.
 
+### Documentation
+
 Documentation for how to edit/update the skin used with FCO Smartpay payments can be found in the [SmartPay_SkinsGuide.pdf](https://github.com/alphagov/fco-smartpay-skin/blob/master/SmartPay_SkinsGuide.pdf) provided by Barclaycard.
 
 ### The TL;DR version
