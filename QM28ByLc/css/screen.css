@@ -1,0 +1,245 @@
+html {
+	font-size: 19px;
+	line-height: 25px;
+	font-family: nta, Helvetica, Arial, sans-serif;
+	color: #0b0c0c;
+}
+
+body {
+	background-color: #ffffff;
+}
+
+.centerpage {
+	margin: 0 auto;
+	width:100%;
+	max-width: 960px;
+}
+
+/* Main Elements */
+#logoheader {
+	width:100%;
+	max-width: 960px;
+	display:inline-block;
+}
+
+#logoheader2 {
+	width:100%;
+	max-width: 960px;
+	height: 101px;
+	border-top: 1px solid #eee;
+	margin-top: 5px;
+	padding-top: 5px;
+	background: url(../img/merchantlogo.gif) no-repeat;
+	display: none;
+}
+
+#logoheader2 h1 {
+	float: left;
+}	
+
+.IAlogo {
+	width: 100%;
+	height: 31px;
+	background: url(../img/IAlogos.gif) left top no-repeat;
+	display:inline-block;
+	margin: 0 0 40px 0;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.SmartLogo {
+	width: 100%;
+	height: 99px;
+	display:inline-block;
+	float: left;
+	padding-top: 0px;
+	background: url(../img/hpp_blogo.png) no-repeat;
+}
+
+@media screen and (min-width: 600px) {
+
+	.IAlogo {
+		width: 50%;
+		background: url(../img/IAlogos.gif) right top no-repeat;
+		border-bottom: none;
+		margin: 35px 0 40px 0
+	}
+
+	.SmartLogo {
+		width: 50%;
+	}
+}
+
+#content {
+	margin:0 20px;
+	background-color: white;
+	padding: 0;
+}
+
+#pmcontent {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+	
+}
+
+#foot {
+	margin-left:20px;
+}
+
+
+/* Common HTML Elements in #content */
+
+#content p,#content ul,#content pre {
+	padding: 0;
+}
+
+#content p {
+	max-width:650px;
+}
+
+#content h2,
+#content h3 {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 600;
+	margin-bottom:15px;
+	max-width:650px;
+}
+
+#content #stageheader {
+	font-size: 19px;
+	line-height: 25px;
+	font-weight:normal;
+}
+
+#displayAmount {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 600;
+}
+
+.bcfoot {
+	font-size:16px;
+	line-height: 20px;
+	margin:30px 20px 20px 20px;
+	display: block;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
+
+
+/* Image Buttons (Payment Methods) */
+
+#paymentMethods {
+	margin: 25px 0;
+}
+	
+
+.imgB{
+	width: auto;
+	height: 47px;
+	border: 0;
+	background: transparent url("../img/bg_buttons.png") no-repeat left 0px;
+	overflow: hidden;
+	cursor: pointer;
+	font-weight: bold;
+	font-family: nta, Helvetica, Arial, sans-serif;
+	font-size: 19px;
+	text-align: left;
+	padding-left: 76px;
+	color: #2e3191;
+	text-decoration: underline;
+}
+
+table,
+tr,
+th,
+td {
+	line-height: 1.3;
+	width: 98%;
+}
+
+td {
+	padding: 3px 0;
+	width: 100%;
+	display: block;
+}
+
+input[type="text"] {
+	width: 100%;
+	max-width:550px;
+	height: 25px;
+	margin: 0;
+	font-size: 19px;
+	font-family: nta;
+}
+
+#card.cvcWhatIs {
+	display: block;
+	margin-bottom: 28px;
+	margin-top: 8px;
+}
+
+#nextstepc {
+	display: none;
+}
+
+.limitwidth {
+	max-width: 650px;
+}
+
+.pmmdetails {
+	margin-top: 10px;
+	margin-left:5px;
+}
+
+.r {
+	text-align:left;
+	margin-top: 15px;
+	margin-bottom:25px;
+}
+
+/*.r input{
+	background: transparent url("../img/pay_btn.png") no-repeat left 0px;
+	width: 58px;
+  height:24px;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+	color: #FFFFFF;
+}
+
+.r input:hover{
+	background: transparent url("../img/pay_btn.png") no-repeat left 0px;
+	width: 58px;
+  height:24px;
+  cursor: pointer;
+  margin: 0;
+  border: 0;
+	color: #FFFFFF;
+}*/
+
+.r input {
+    background-color: #00823b;
+    position: relative;
+    display: -moz-inline-stack;
+    display: inline-block;
+    padding: 0.35em 0.5em 0.15em 0.5em;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 2px 0 #003518;
+    -moz-box-shadow: 0 2px 0 #003518;
+    box-shadow: 0 2px 0 #003518;
+    font-size: 1em;
+    line-height: 1.25;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    color: #fff;
+}
+
