@@ -7,7 +7,7 @@
 </div>
 
 <div id="pmcontent">
-<p class="who_you_are_paying">You are making a payment to Foreign and Commonwealth Office</p>
+<p class="who_you_are_paying">You are making a payment to the Foreign and Commonwealth Office</p>
 
 <div class="InfoBox">
     <div class="Payment">  </div>
