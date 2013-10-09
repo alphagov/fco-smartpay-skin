@@ -74,20 +74,6 @@ body {
 	margin-top: 45px;
 }*/
 
-@media screen and (min-width: 600px) {
-
-	.IAlogo {
-		width: 50%;
-		background: url(../img/IAlogos.gif) right top no-repeat;
-		border-bottom: none;
-		margin: 35px 0 40px 0
-	}
-
-	.SmartLogo {
-		width: 50%;
-	}
-}
-
 #content {
 	margin:0 15px;
 	background-color: white;
@@ -166,7 +152,7 @@ body {
 	font-family: nta, Helvetica, Arial, sans-serif;
 	font-size: 19px;
 	text-align: left;
-	padding-left: 76px;
+	padding-left: 0;
 	color: #2e3191;
 	text-decoration: underline;
 }
@@ -277,10 +263,34 @@ textarea {
 .pmBbankTransfer_IBAN,
 .pmBbankTransfer_GB
  {
-	background-image: url(../img/transaction_image.png) !important;
+ 	background-image: none !important;
 }
 
 #footerb1div {
 	display: none;
 }
 
+@media screen and (min-width: 600px) {
+
+	.IAlogo {
+		width: 50%;
+		background: url(../img/IAlogos.gif) right top no-repeat;
+		border-bottom: none;
+		margin: 35px 0 40px 0
+	}
+
+	.SmartLogo {
+		width: 50%;
+	}
+
+	.pmBcard,
+	.pmBbankTransfer_IBAN,
+	.pmBbankTransfer_GB {
+		background-image: url(../img/transaction_image.png) !important;
+		background-image: none !important;
+	}
+
+	.imgB {
+		/*padding-left: 76px;*/
+	}
+}
