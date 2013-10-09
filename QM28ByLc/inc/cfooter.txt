@@ -1,2 +1,4 @@
-<a href="http://gov.uk"><div class="govuk_approved"></div></a>
+<a href="http://gov.uk"><div class="govuk_approved">
+<div class="rule"></div>
+</div></a>
 </div>
