@@ -34,7 +34,7 @@ body {
 }	
 
 .govuk_approved {
-	background: url(../img/govuk.png) 20px top no-repeat;
+	background: url(../img/govuk.png) 15px top no-repeat;
 	height:32px;
 	width:100%;
 	padding-top:10px;
@@ -89,7 +89,7 @@ body {
 }
 
 #content {
-	margin:0 20px;
+	margin:0 15px;
 	background-color: white;
 	padding: 0;
 }
