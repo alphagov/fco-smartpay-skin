@@ -45,7 +45,7 @@ body {
 	height: 31px;
 	background: url(../img/IAlogos.gif) left top no-repeat;
 	display:inline-block;
-	margin: 0 0 40px 0;
+	margin: 0 0 20px 0;
 	float: left;
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 10px;
@@ -114,6 +114,7 @@ body {
 
 #content p {
 	max-width:650px;
+	line-height: 1.25;
 }
 
 #content h2,
@@ -266,6 +267,14 @@ textarea {
 .rule {
 	border-bottom: 1px solid #ccc;
 	margin: 40px 20px;
+}
+
+.who_you_are_paying {
+	margin-bottom: 15px;
+}
+
+.pmBcard {
+	background-image: none;
 }
 
 #footerb1div {
