@@ -273,8 +273,11 @@ textarea {
 	margin-bottom: 15px;
 }
 
-.pmBcard {
-	background-image: none;
+.pmBcard,
+.pmBbankTransfer_IBAN,
+.pmBbankTransfer_GB
+ {
+	background-image: url(../img/transaction_image.png) !important;
 }
 
 #footerb1div {
