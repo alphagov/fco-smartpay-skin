@@ -206,7 +206,6 @@ textarea {
 .r input,
 #footerb2div input[type="submit"] {
     background-color: #00823b;
-    position: relative;
     display: -moz-inline-stack;
     display: inline-block;
     padding: 0.35em 0.5em 0.15em 0.5em;
