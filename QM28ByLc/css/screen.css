@@ -23,12 +23,6 @@ body {
 	display:inline-block;
 }
 
-#logoheader2 {
-	/*width: 100%;
-	max-width: 960px;
-	background: url(../img/govuk.png) left top no-repeat;*/
-}
-
 #logoheader2 h1 {
 	float: left;
 }	
@@ -70,9 +64,6 @@ body {
 	text-align: center;
 }
 
-/*#pmmdetails-card table {
-	margin-top: 45px;
-}*/
 
 #content {
 	margin:0 15px;
@@ -288,9 +279,5 @@ textarea {
 	.pmBbankTransfer_GB {
 		background-image: url(../img/transaction_image.png) !important;
 		background-image: none !important;
-	}
-
-	.imgB {
-		/*padding-left: 76px;*/
 	}
 }
